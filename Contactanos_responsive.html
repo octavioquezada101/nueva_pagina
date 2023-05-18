@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+<link rel="stylesheet" href="CSS/Contactanos.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<link rel="icon" href="imagenes/logo.jpg">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-black">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="imagenes/insignia.png" height="100" width="100" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="Inicio_responsive.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Nosotros_responsive.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Servicios_responsive.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Contactanos_responsive.html">Contactanos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Mapa_responsive.html">Visítanos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+<!--Fin header-->
+<section> <!--Primera Seccion-->
+ <!--Inicio Formulario-->
+ <div class="formulario">
+    <section class="Principal">
+        <form action="" class="formulario_principal" id="form" autocomplete="off">
+               
+            <h2>Ingreso de Datos</h2>
+                        <div class="form-input nombre">
+                        <input type="text" id="nombre" class="entrada" placeholder="Ingrese nombres" >
+                        <label for="nombre">Nombres</label>
+                        <p class="mensajeError"></p>
+                    </div>
+                    <div class="form-input apelpat">
+                        <input type="text" id="apelpat" class="entrada" placeholder="Ingrese Apellido Paterno"  >
+                        <label for="Apellido Paterno">Apellido Paterno</label>
+                        <p class="mensajeError"></p>
+                    </div>
+                    <div class="form-input apelmat">
+                        <input type="text" id="apelmat" class="entrada" placeholder="Ingrese Apellido Materno"   >
+                        <label for="Apellido Materno">Apellido Materno</label>
+                        <p class="mensajeError"></p>
+                    </div>
+                    <div class="form-input rut">
+                        <input type="text" id="rut"class="entrada" placeholder="Ingrese Rut"    >
+                        <label for="Rut">Rut</label>
+                        <p class="mensajeError"></p>
+                    </div>
+                    <div class="form-input genero"><br>
+                        <label class="gene" for="genero">Genero</label> 
+                        <select class="dato1" name="Genero" id="genero"      >
+                            <option value="1">Prefiero no decirlo</option>
+                            <option value="2">Masculino</option>
+                            <option value="3">Femenino</option>
+                                            
+                        </select>
+                    </div> 
+                    <div class="form-input direccion">
+                        <input type="text" id="direccion"class="entrada" placeholder="Ingrese Direccion"      >
+                        <label for="direccion">Direccion</label>
+                        <p class="mensajeError"></p>
+                    </div>                
+                    <div class="form-input correo">
+                        <input type="email" id="correo" class="entrada" placeholder="Ingrese Correo"       >
+                        <label for="correo">Correo</label>
+                        <p class="mensajeError"></p>
+                    </div>
+                    <div class="form-input fono">
+                        <input type="text" id="fono" class="entrada" placeholder="Ingrese Fono"        >
+                        <label class="telefono" for="fono">Fono</label>
+                        <p class="mensajeError"></p>
+                    </div>
+                    <div class="boton" ></div>  
+                    <input type="submit" value="Enviar" class="envia2" id="enviar">
+                    </div>
+                   
+                </form>
+    
+                
+                   
+        </div>
+        </section>
+    
+        <script src="js/valida.js"></script>
+    
+</section>
+
+    <footer class="footer"> <!--Comienzo Footer-->
+        <div class="red">
+          <a href="http://www.instagram.com" target="_blank">
+            <img src="imagenes/insta.png"height="30px" width="30px" alt="">
+          </a>
+          <a href="http://www.facebook.com" target="_blank">
+            <img src="imagenes/Face.png"height="30px" width="30px" alt="">
+          </a>
+          <a href="http://www.whatsapp.com" target="_blank">
+            <img src="imagenes/what.png"height="30px" width="30px" alt="">
+          </a>
+        </div>
+        <div class="derechos">
+            ©Copyright 2023. Octavio Quezada & Paul Lopez. 
+            <br>Todos los derechos reservados.                                         
+        </div>
+      
+    </div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>   
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

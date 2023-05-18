@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.navbar-nav a {
+    color: white;
+}
+
+.navbar-nav a:hover{
+    transition: all 0.5s ease;
+    background-color: #899B9F;
+    border-radius: 5px; 
+}
+
+/*PRINCIPIO SECTION*/
+/*Inicio formulario*/
+
+.formulario h2{
+    margin-top: 10px;
+    text-align: center;  
+    text-shadow: 1px 2px 2px black, 0 0 25px #899B9F, 0 0 5px #899B9F;
+}
+
+p{
+    position: absolute;
+    left: 483px;
+    margin: 0;
+    background-color: #0a122a;
+    font-family: sans-serif;
+}
+
+.formulario{
+    background-color:#0a122a;
+    max-width: 100%;
+    margin: none;    
+}
+
+.Principal{
+    margin: auto;
+    width: 90%;
+    max-width: 1000px;
+    background-color:#0a122a;
+    color: white;
+    overflow: hidden;
+    border-radius: 1em;
+    grid-auto-rows: max-content;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    gap: .6em;
+    animation: mostrar 1.5s ease-in-out;
+}
+
+@keyframes mostrar {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+.formulario_principal{
+    display: grid;
+    justify-items: center;
+    gap: 1.5em;
+}
+.entrada{
+    margin: 20px;
+    margin-bottom: 0px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: solid 1px rgb(252, 251, 251);
+    width: 50%;
+    max-width: 300px;
+    outline: none;
+    padding: 0px;
+    font: inherit;
+    /*border-radius: .6em;*/
+    color: white;
+}
+
+.formulario_principal label {
+    display: block;
+    margin-bottom: 0px;
+    font-size: 15px;
+    color: rgb(248, 251, 251);
+    width: 400px;
+    text-align: left;
+    margin-left: 125px;
+  }
+
+.form-input {
+    display: block;
+    margin-top: -20px;
+    font-size: 15px;
+    color: rgb(248, 251, 251);
+    width: 500px;
+    text-align: center;
+    }
+
+option{
+    margin-top: 100px;
+    font-size: 15px;
+    color: rgb(249, 247, 247);
+    width: 300px;
+     background-color:#0a122a;    
+    }  
+
+.dato1{
+    margin-top: 5px;
+    margin-left: 12px;
+    width: 250px;
+    position: relative;
+    }
+
+.envia2{
+    border: 1px solid #f9fafb; 
+    padding: 10px 50px;
+    background-color: #0a122a; 
+    color: #ffffff; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    font-family: sans-serif; 
+    text-shadow: 1px 2px 2px black, 0 0 25px #899B9F, 0 0 5px #899B9F;
+    box-shadow: 0 0 15px black; 
+    width: 200px;
+    margin: auto;
+    }
+
+.titulo{
+    font-size: 2.3rem;
+    text-align: center;
+    }
+
+.boton input {
+    background: black;
+    color: white;
+    padding: 10px 50px;
+    font-size: 25px;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    border: none;
+    }
+  
+.boton input:hover {
+    background: rgb(1, 35, 39);
+    transition: 0.5s;
+  }
+
+.mensajeError {
+    color: rgb(184, 31, 31);
+    margin-top: 0px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-right: 40px;
+  }
+
+  #enviar{
+    margin: 10px;
+}
+label.telefono{
+    margin-bottom: -40px;
+}
+
+/*FIN SECTION*/
+
+/*PRINCIPIO FOOTER*/
+.footer{
+    color: white;
+    height: 55px;
+    position: relative;
+    background-color: #899B9F;
+}
+.red{
+    position:absolute;
+    right: 0;
+    padding-right: 5px;
+    padding-top : 9px;
+}
+
+.derechos{
+    text-shadow: 1px 2px 2px black, 0 0 25px #899B9F, 0 0 5px #899B9F;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    border-radius: 5px;
+    left: 0;
+    position: absolute;
+    padding-top: 5px;
+    padding-left: 4px;
+    text-align: justify;  
+}
+/*FIN FOOTER*/
+
+
+
